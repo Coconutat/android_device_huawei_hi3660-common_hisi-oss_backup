@@ -68,6 +68,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtinycompress
 
+PRODUCT_PACKAGES += \
+    libshim_audioparams
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     $(LOCAL_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml
