@@ -48,6 +48,7 @@ ro.config.hw_volte_on=true
 
 # Media
 debug.stagefright.ccodec=0
+media.stagefright.thumbnail.prefer_hw_codecs=true
 
 # Perf
 ro.kirin.config.hw_board_ipa=true
