@@ -46,6 +46,9 @@ ro.fastbootd.available=true
 # IMS
 ro.config.hw_volte_on=true
 
+# Media
+debug.stagefright.ccodec=0
+
 # Perf
 ro.kirin.config.hw_board_ipa=true
 ro.kirin.config.hw_perfgenius=true
