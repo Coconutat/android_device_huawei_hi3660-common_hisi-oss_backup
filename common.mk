@@ -206,6 +206,10 @@ PRODUCT_PACKAGES += \
     libkeystore-engine-wifi-hidl \
     libkeystore-wifi-hidl
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.huawei
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.2.vendor \
