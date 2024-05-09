@@ -45,9 +45,8 @@ ro.fastbootd.available=true
 # IMS
 ro.config.hw_volte_on=true
 
-# Perf
-ro.kirin.config.hw_board_ipa=true
-ro.kirin.config.hw_perfgenius=true
+# Power HAL
+vendor.powerhal.disp.idle_support=false
 
 # RIL
 ro.telephony.default_network=9,9
