@@ -112,6 +112,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/rootdir/etc/connectivity/,$(TARGET_COPY_OUT_VENDOR)/etc/init/connectivity)
 
+# Consumer Ir
+ifeq ($(BOARD_HAVE_IR),true)
+PRODUCT_PACKAGES += \
+    android.hardware.ir-service.huawei
+
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
+endif
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-service \
