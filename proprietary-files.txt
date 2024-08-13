@@ -264,9 +264,7 @@ vendor/firmware/nvram43455_hw_mha_TUGL.txt
 vendor/firmware/nvram43455_hw_mha_TUGL_oversea.txt
 vendor/firmware/nvram43455_hw_stf_TUGL.txt
 vendor/firmware/nvram43455_hw_stf_oversea.txt
-vendor/firmware/nvram43455_hw_vn1.txt
 vendor/firmware/nvram4359_hw.txt
-vendor/firmware/nvram4359_hw_2ant_kepler.txt
 vendor/firmware/nvram4359_hw_vicky_v1.txt
 vendor/firmware/nvram4359_hw_vicky_v3.txt
 vendor/firmware/nvram4359_hw_vicky_v3_oversea.txt
